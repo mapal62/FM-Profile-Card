@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  color: hsl(0, 0%, 59%);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+p {
+  color: black;
+}
+
+.with-background {
+  position: relative;
+  background-color: hsl(185, 75%, 39%);
+  height: 700px;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.pattern-top {
+  height: 400px;
+  width: 55%;
+  background-image: url("../images/bg-pattern-top.svg");
+  background-position: 100% 100%;
+}
+
+.pattern-bottom {
+  height: 400px;
+  width: 60%;
+  margin-left: 50%;
+  background-image: url("../images/bg-pattern-bottom.svg");
+  background-position: 0% 0%;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+}
+
+.vertical-mid {
+  width: 100%;
+  position: absolute;
+  top: 130px;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.decoration {
+  height: 140px;
+}
+
+.photo {
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 125px;
+}
+
+.details {
+  background-color: white;
+}
+
+.who {
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+
+.age {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+.counters {
+  padding: 20px 0 15px;
+}
+
+.follow,
+.like,
+.upload {
+  width: 30%;
+  display: inline-block;
+}
